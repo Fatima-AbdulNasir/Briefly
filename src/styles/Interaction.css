@@ -1,0 +1,35 @@
+.interaction {
+    padding: 20px;
+    text-align: center;
+   }
+   
+   .interaction form {
+    display: inline-block;
+   }
+   
+   .interaction input[type='text'],
+   .interaction input[type='email'],
+   .interaction textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    box-shadow:  rgb(87, 17, 87) 0px 5px 5px;
+    border-radius: 5px;
+   }
+   
+   .interaction button {
+    background-color: rgb(87, 17, 87);
+    color: white;
+ padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+   }
+   
+   .interaction button:hover {
+    opacity: 0.8;
+   }
